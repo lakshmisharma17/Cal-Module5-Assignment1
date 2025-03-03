@@ -1,49 +1,16 @@
 # Cal-Module5-Assignment1
+# Link to Jupyter notebook is on next line : 
+# https://github.com/lakshmisharma17/Cal-Module5-Assignment1/blob/main/Prompt_Final_Module5.ipynb
 
-Context
+Drivers who are more likely to accept bar coupons tend to have the following characteristics
 
-Imagine driving through town and a coupon is delivered to your cell phone for a restaurant near where you are driving. Would you accept that coupon and take a short detour to the restaurant? Would you accept the coupon but use it on a subsequent trip? Would you ignore the coupon entirely? What if the coupon was for a bar instead of a restaurant? What about a coffee house? Would you accept a bar coupon with a minor passenger in the car? What about if it was just you and your partner in the car? Would weather impact the rate of acceptance? What about the time of day?
+Frequent Bar-Goers: Drivers who visit bars more than once a month demonstrate a higher likelihood of accepting bar coupons. This suggests that these individuals already have an established interest in going to bars and are therefore more receptive to offers related to bars.
 
-Obviously, proximity to the business is a factor on whether the coupon is delivered to the driver or not, but what are the factors that determine whether a driver accepts the coupon once it is delivered to them? How would you determine whether a driver is likely to accept a coupon?
+Social and Outgoing: Drivers who are not accompanied by children and are not widowed may be more inclined to accept bar coupons. This could indicate a preference for socializing and enjoying bar settings in the company of adults, potentially friends or partners.
 
-Overview
+Younger Demographic: Drivers under the age of 30 might be more prone to accept bar coupons, suggesting a higher affinity for bar-related activities among younger individuals.
 
-The goal of this project is to use what you know about visualizations and probability distributions to distinguish between customers who accepted a driving coupon versus those that did not.
+Lower Income and Cheap Restaurant Preference: Drivers who frequent inexpensive restaurants more than four times a month and have a lower income (less than $50K) may also be more likely to accept bar coupons. This could indicate a preference for budget-friendly options and a potential overlap in the type of establishments they visit (bars and inexpensive restaurants).
 
-Data
-
-This data comes to us from the UCI Machine Learning repository and was collected via a survey on Amazon Mechanical Turk. The survey describes different driving scenarios including the destination, current time, weather, passenger, etc., and then ask the person whether he will accept the coupon if he is the driver. Answers that the user will drive there ‘right away’ or ‘later before the coupon expires’ are labeled as ‘Y = 1’ and answers ‘no, I do not want the coupon’ are labeled as ‘Y = 0’. There are five different types of coupons -- less expensive restaurants (under $20), coffee houses, carry out & take away, bar, and more expensive restaurants ($20 - $50).
-
-Deliverables
-
-Your final product should be a brief report that highlights the differences between customers who did and did not accept the coupons. To explore the data you will utilize your knowledge of plotting, statistical summaries, and visualization using Python. You will publish your findings in a public facing github repository as your first portfolio piece.
-
-Data Description
-Keep in mind that these values mentioned below are average values.
-
-The attributes of this data set include:
-
-User attributes
-Gender: male, female
-Age: below 21, 21 to 25, 26 to 30, etc.
-Marital Status: single, married partner, unmarried partner, or widowed
-Number of children: 0, 1, or more than 1
-Education: high school, bachelors degree, associates degree, or graduate degree
-Occupation: architecture & engineering, business & financial, etc.
-Annual income: less than \$12500, \$12500 - \$24999, \$25000 - \$37499, etc.
-Number of times that he/she goes to a bar: 0, less than 1, 1 to 3, 4 to 8 or greater than 8
-Number of times that he/she buys takeaway food: 0, less than 1, 1 to 3, 4 to 8 or greater than 8
-Number of times that he/she goes to a coffee house: 0, less than 1, 1 to 3, 4 to 8 or greater than 8
-Number of times that he/she eats at a restaurant with average expense less than \$20 per person: 0, less than 1, 1 to 3, 4 to 8 or greater than 8
-Number of times that he/she goes to a bar: 0, less than 1, 1 to 3, 4 to 8 or greater than 8
-Contextual attributes
-Driving destination: home, work, or no urgent destination
-Location of user, coupon and destination: we provide a map to show the geographical location of the user, destination, and the venue, and we mark the distance between each two places with time of driving. The user can see whether the venue is in the same direction as the destination.
-Weather: sunny, rainy, or snowy
-Temperature: 30F, 55F, or 80F
-Time: 10AM, 2PM, or 6PM
-Passenger: alone, partner, kid(s), or friend(s)
-Coupon attributes
-time before it expires: 2 hours or one day
-
+In essence, the observations suggest that drivers who are regular bar-goers, social, younger, or budget-conscious are more inclined to accept bar coupons. This aligns with the idea that these coupons are more appealing to individuals who already enjoy bar settings or are seeking affordable entertainment options.
 
